@@ -119,7 +119,7 @@ module RPH
       def current_tab(*tabs)
         self._current_tab = tabs unless tabs.empty?
         self._current_tab ||= self.to_s.sub('Controller', '').downcase.to_sym
-      end      
+      end
     end
   end
 end
